@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136DB06B1B798CAD00BCC4EE /* TLCollectionWaterFallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 136DB06A1B798CAD00BCC4EE /* TLCollectionWaterFallCell.m */; };
 		13E877741B78BE8C008E09B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E877731B78BE8C008E09B9 /* main.m */; };
-		13E877771B78BE8C008E09B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E877761B78BE8C008E09B9 /* AppDelegate.m */; };
-		13E8777A1B78BE8C008E09B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E877791B78BE8C008E09B9 /* ViewController.m */; };
+		13E877771B78BE8C008E09B9 /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E877761B78BE8C008E09B9 /* TLAppDelegate.m */; };
+		13E8777A1B78BE8C008E09B9 /* TLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E877791B78BE8C008E09B9 /* TLCollectionViewController.m */; };
 		13E8777D1B78BE8C008E09B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E8777B1B78BE8C008E09B9 /* Main.storyboard */; };
 		13E8777F1B78BE8C008E09B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E8777E1B78BE8C008E09B9 /* Images.xcassets */; };
 		13E877821B78BE8C008E09B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13E877801B78BE8C008E09B9 /* LaunchScreen.xib */; };
 		13E8778E1B78BE8C008E09B9 /* TLCollectionWaterfallFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E8778D1B78BE8C008E09B9 /* TLCollectionWaterfallFlowTests.m */; };
+		13E877991B78D999008E09B9 /* TLCollectionWaterFallFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E877981B78D999008E09B9 /* TLCollectionWaterFallFlow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		136DB0691B798CAD00BCC4EE /* TLCollectionWaterFallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCollectionWaterFallCell.h; sourceTree = "<group>"; };
+		136DB06A1B798CAD00BCC4EE /* TLCollectionWaterFallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCollectionWaterFallCell.m; sourceTree = "<group>"; };
 		13E8776E1B78BE8C008E09B9 /* TLCollectionWaterfallFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLCollectionWaterfallFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E877721B78BE8C008E09B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13E877731B78BE8C008E09B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		13E877751B78BE8C008E09B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		13E877761B78BE8C008E09B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		13E877781B78BE8C008E09B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		13E877791B78BE8C008E09B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13E877751B78BE8C008E09B9 /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
+		13E877761B78BE8C008E09B9 /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
+		13E877781B78BE8C008E09B9 /* TLCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCollectionViewController.h; sourceTree = "<group>"; };
+		13E877791B78BE8C008E09B9 /* TLCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCollectionViewController.m; sourceTree = "<group>"; };
 		13E8777C1B78BE8C008E09B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13E8777E1B78BE8C008E09B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13E877811B78BE8C008E09B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13E877871B78BE8C008E09B9 /* TLCollectionWaterfallFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLCollectionWaterfallFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E8778C1B78BE8C008E09B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13E8778D1B78BE8C008E09B9 /* TLCollectionWaterfallFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCollectionWaterfallFlowTests.m; sourceTree = "<group>"; };
+		13E877971B78D999008E09B9 /* TLCollectionWaterFallFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCollectionWaterFallFlow.h; sourceTree = "<group>"; };
+		13E877981B78D999008E09B9 /* TLCollectionWaterFallFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCollectionWaterFallFlow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +87,14 @@
 		13E877701B78BE8C008E09B9 /* TLCollectionWaterfallFlow */ = {
 			isa = PBXGroup;
 			children = (
-				13E877751B78BE8C008E09B9 /* AppDelegate.h */,
-				13E877761B78BE8C008E09B9 /* AppDelegate.m */,
-				13E877781B78BE8C008E09B9 /* ViewController.h */,
-				13E877791B78BE8C008E09B9 /* ViewController.m */,
+				13E877751B78BE8C008E09B9 /* TLAppDelegate.h */,
+				13E877761B78BE8C008E09B9 /* TLAppDelegate.m */,
+				13E877971B78D999008E09B9 /* TLCollectionWaterFallFlow.h */,
+				13E877981B78D999008E09B9 /* TLCollectionWaterFallFlow.m */,
+				136DB0691B798CAD00BCC4EE /* TLCollectionWaterFallCell.h */,
+				136DB06A1B798CAD00BCC4EE /* TLCollectionWaterFallCell.m */,
+				13E877781B78BE8C008E09B9 /* TLCollectionViewController.h */,
+				13E877791B78BE8C008E09B9 /* TLCollectionViewController.m */,
 				13E8777B1B78BE8C008E09B9 /* Main.storyboard */,
 				13E8777E1B78BE8C008E09B9 /* Images.xcassets */,
 				13E877801B78BE8C008E09B9 /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13E8777A1B78BE8C008E09B9 /* ViewController.m in Sources */,
-				13E877771B78BE8C008E09B9 /* AppDelegate.m in Sources */,
+				13E877991B78D999008E09B9 /* TLCollectionWaterFallFlow.m in Sources */,
+				13E8777A1B78BE8C008E09B9 /* TLCollectionViewController.m in Sources */,
+				13E877771B78BE8C008E09B9 /* TLAppDelegate.m in Sources */,
+				136DB06B1B798CAD00BCC4EE /* TLCollectionWaterFallCell.m in Sources */,
 				13E877741B78BE8C008E09B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 				13E877931B78BE8C008E09B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13E877941B78BE8C008E09B9 /* Build configuration list for PBXNativeTarget "TLCollectionWaterfallFlowTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				13E877961B78BE8C008E09B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
